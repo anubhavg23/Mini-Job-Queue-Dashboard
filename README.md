@@ -121,5 +121,5 @@ WHERE id = :id AND status IN (:allowedPreviousStatuses);
 
 ## Deployment URLs
 
-- **Frontend**: `https://assignment-juspay-v5gl.vercel.app`
-- **Backend**: `https://mini-job-queue-dashboard-voux.onrender.com`
+- **Frontend**: `https://assignment-juspay-v5gl.vercel.app/`
+- **Backend**: `https://mini-job-queue-dashboard-voux.onrender.com/`
