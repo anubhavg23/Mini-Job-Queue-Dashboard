@@ -1,0 +1,10 @@
+{
+  "name": "job-queue-dashboard-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --prefix backend run start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "test": "node test-all.js"
+  }
+}
