@@ -1,6 +1,7 @@
 import { Module, OnModuleInit } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
+import { AppController } from './app.controller';
 import { JobsModule } from './jobs/jobs.module';
 import { Job } from './jobs/job.entity';
 
@@ -14,6 +15,7 @@ import { Job } from './jobs/job.entity';
     }),
     JobsModule,
   ],
+  controllers: [AppController],
 })
 export class AppModule implements OnModuleInit {
   constructor(private readonly dataSource: DataSource) {}
